@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XMGNSOperationVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8kz-NQ-jt9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWw-N5-0NU" userLabel="contentSizeView">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsR-wh-F7j">
+                                    <rect key="frame" x="30" y="296" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.088432945311069489" green="0.46287238597869873" blue="0.18661445379257202" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="1gj-RJ-TpB"/>
+                                    </constraints>
+                                    <state key="normal" title="NSOperationQueue-4">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnQueue4:" destination="-1" eventType="touchUpInside" id="ZM4-hQ-QWq"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGQ-82-2ak">
+                                    <rect key="frame" x="30" y="250" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.091572783887386322" green="0.47902685403823853" blue="0.12527859210968018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="gqq-nS-xdU"/>
+                                    </constraints>
+                                    <state key="normal" title="NSOperationQueue-3">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnQueue3:" destination="-1" eventType="touchUpInside" id="tja-XI-DJS"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMi-2D-lQt">
+                                    <rect key="frame" x="30" y="204" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.090495996177196503" green="0.48700696229934692" blue="0.10926381498575211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="Fhx-9O-iRL"/>
+                                    </constraints>
+                                    <state key="normal" title="NSOperationQueue-2">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnQueue2:" destination="-1" eventType="touchUpInside" id="9s2-0U-fYR"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Epc-t5-IBT">
+                                    <rect key="frame" x="30" y="158" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.11140019446611404" green="0.55435961484909058" blue="0.091373689472675323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="2zf-6w-O1X"/>
+                                    </constraints>
+                                    <state key="normal" title="NSOperationQueue-1">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnQueue:" destination="-1" eventType="touchUpInside" id="VCF-6d-YMa"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hp-2Z-kPn">
+                                    <rect key="frame" x="30" y="20" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.27504521608352661" green="0.64922094345092773" blue="0.08941938728094101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="fKj-ja-ssx"/>
+                                    </constraints>
+                                    <state key="normal" title="NSInvocationOperation">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnNSOperationBase:" destination="-1" eventType="touchUpInside" id="L3y-bM-dCY"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lx-xh-SH5">
+                                    <rect key="frame" x="30" y="66" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.21932524442672729" green="0.63741606473922729" blue="0.087805114686489105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="iFU-Sf-xwa"/>
+                                    </constraints>
+                                    <state key="normal" title="NSBlockOperation">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnBlockOperation:" destination="-1" eventType="touchUpInside" id="aNV-Lt-8f3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnA-Ag-yI8">
+                                    <rect key="frame" x="30" y="112" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.15286427736282349" green="0.61372196674346924" blue="0.089067079126834869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="peZ-Z5-5TP"/>
+                                    </constraints>
+                                    <state key="normal" title="NSOperationCustom">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnCustom:" destination="-1" eventType="touchUpInside" id="0cj-fF-oc5"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9x-P6-Bbo">
+                                    <rect key="frame" x="30" y="388" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.76833051443099976" green="0.072340808808803558" blue="0.78632485866546631" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="YDD-K6-ZYt"/>
+                                    </constraints>
+                                    <state key="normal" title="Other">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnOther:" destination="-1" eventType="touchUpInside" id="0nI-E4-h9n"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhn-CM-9qb">
+                                    <rect key="frame" x="30" y="342" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.089113406836986542" green="0.41916650533676147" blue="0.19864791631698608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="OwH-9t-sVD"/>
+                                    </constraints>
+                                    <state key="normal" title="NSOperationQueue-5">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnQueueBlock:" destination="-1" eventType="touchUpInside" id="VWe-jc-N5S"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnm-2f-2tP">
+                                    <rect key="frame" x="30" y="434" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.9946405291557312" green="0.33775311708450317" blue="0.0012111261021345854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="Mzn-F9-pes"/>
+                                    </constraints>
+                                    <state key="normal" title="操作-依赖-监听">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnCtrlAndDependAndListener:" destination="-1" eventType="touchUpInside" id="rHl-Fp-dQz"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFB-A8-B9Q">
+                                    <rect key="frame" x="30" y="475" width="315" height="36"/>
+                                    <color key="backgroundColor" red="0.072103776037693024" green="0.70917576551437378" blue="0.8104364275932312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="YsD-NA-r75"/>
+                                    </constraints>
+                                    <state key="normal" title="线程间的通信">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnMsgOp:" destination="-1" eventType="touchUpInside" id="oOF-wA-iVb"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="dMi-2D-lQt" firstAttribute="top" secondItem="Epc-t5-IBT" secondAttribute="bottom" constant="10" id="2N7-80-D6s"/>
+                                <constraint firstItem="uGQ-82-2ak" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="3ZY-ZX-k5B"/>
+                                <constraint firstItem="7lx-xh-SH5" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="57R-Ea-h4E"/>
+                                <constraint firstItem="7lx-xh-SH5" firstAttribute="top" secondItem="9Hp-2Z-kPn" secondAttribute="bottom" constant="10" id="6LQ-EA-80Z"/>
+                                <constraint firstAttribute="trailing" secondItem="uGQ-82-2ak" secondAttribute="trailing" constant="30" id="8Eb-Un-vhj"/>
+                                <constraint firstAttribute="height" constant="604" id="9Vz-Pb-Bka"/>
+                                <constraint firstAttribute="trailing" secondItem="Jnm-2f-2tP" secondAttribute="trailing" constant="30" id="ATv-bB-FYw"/>
+                                <constraint firstItem="bhn-CM-9qb" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="AxZ-GR-jxi"/>
+                                <constraint firstAttribute="trailing" secondItem="bhn-CM-9qb" secondAttribute="trailing" constant="30" id="C8W-Zj-ofY"/>
+                                <constraint firstAttribute="trailing" secondItem="7lx-xh-SH5" secondAttribute="trailing" constant="30" id="D4b-b8-JLl"/>
+                                <constraint firstItem="CnA-Ag-yI8" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="E69-cw-NnA"/>
+                                <constraint firstAttribute="trailing" secondItem="dMi-2D-lQt" secondAttribute="trailing" constant="30" id="GZJ-md-8KC"/>
+                                <constraint firstItem="hsR-wh-F7j" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="K2X-f8-jJs"/>
+                                <constraint firstAttribute="trailing" secondItem="hsR-wh-F7j" secondAttribute="trailing" constant="30" id="K37-qN-Cnd"/>
+                                <constraint firstItem="9Hp-2Z-kPn" firstAttribute="top" secondItem="TWw-N5-0NU" secondAttribute="top" constant="20" id="Luy-hm-q3j"/>
+                                <constraint firstAttribute="trailing" secondItem="Y9x-P6-Bbo" secondAttribute="trailing" constant="30" id="Mdo-D7-czL"/>
+                                <constraint firstAttribute="trailing" secondItem="CnA-Ag-yI8" secondAttribute="trailing" constant="30" id="MjU-dR-nmO"/>
+                                <constraint firstItem="fFB-A8-B9Q" firstAttribute="top" secondItem="Jnm-2f-2tP" secondAttribute="bottom" constant="5" id="O6q-Ug-gQB"/>
+                                <constraint firstAttribute="trailing" secondItem="Epc-t5-IBT" secondAttribute="trailing" constant="30" id="ORd-T1-79M"/>
+                                <constraint firstItem="bhn-CM-9qb" firstAttribute="top" secondItem="hsR-wh-F7j" secondAttribute="bottom" constant="10" id="PrL-sF-Ds0"/>
+                                <constraint firstItem="CnA-Ag-yI8" firstAttribute="top" secondItem="7lx-xh-SH5" secondAttribute="bottom" constant="10" id="Sma-dv-oV0"/>
+                                <constraint firstItem="Jnm-2f-2tP" firstAttribute="top" secondItem="Y9x-P6-Bbo" secondAttribute="bottom" constant="10" id="TmB-tI-KrY"/>
+                                <constraint firstItem="Y9x-P6-Bbo" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="Xdz-t4-doD"/>
+                                <constraint firstItem="dMi-2D-lQt" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="aIm-XI-YTa"/>
+                                <constraint firstItem="Jnm-2f-2tP" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="bhZ-WI-qW8"/>
+                                <constraint firstAttribute="trailing" secondItem="9Hp-2Z-kPn" secondAttribute="trailing" constant="30" id="cgY-24-EIa"/>
+                                <constraint firstAttribute="trailing" secondItem="fFB-A8-B9Q" secondAttribute="trailing" constant="30" id="ffB-k3-Hae"/>
+                                <constraint firstItem="9Hp-2Z-kPn" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="gLw-Gb-TYu"/>
+                                <constraint firstItem="uGQ-82-2ak" firstAttribute="top" secondItem="dMi-2D-lQt" secondAttribute="bottom" constant="10" id="hNW-Wx-1M5"/>
+                                <constraint firstItem="Y9x-P6-Bbo" firstAttribute="top" secondItem="bhn-CM-9qb" secondAttribute="bottom" constant="10" id="kkO-6B-INF"/>
+                                <constraint firstItem="Epc-t5-IBT" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="qB7-1s-Non"/>
+                                <constraint firstItem="hsR-wh-F7j" firstAttribute="top" secondItem="uGQ-82-2ak" secondAttribute="bottom" constant="10" id="uvq-E0-HJ7"/>
+                                <constraint firstItem="Epc-t5-IBT" firstAttribute="top" secondItem="CnA-Ag-yI8" secondAttribute="bottom" constant="10" id="wsM-3A-May"/>
+                                <constraint firstItem="fFB-A8-B9Q" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="xEu-p9-iBx"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="TWw-N5-0NU" secondAttribute="bottom" id="M8Y-Dq-Yj9"/>
+                        <constraint firstItem="TWw-N5-0NU" firstAttribute="top" secondItem="8kz-NQ-jt9" secondAttribute="top" id="PgO-C3-PoM"/>
+                        <constraint firstItem="TWw-N5-0NU" firstAttribute="leading" secondItem="8kz-NQ-jt9" secondAttribute="leading" id="V49-m2-87k"/>
+                        <constraint firstItem="TWw-N5-0NU" firstAttribute="centerX" secondItem="8kz-NQ-jt9" secondAttribute="centerX" id="ltJ-AN-s6W"/>
+                        <constraint firstAttribute="trailing" secondItem="TWw-N5-0NU" secondAttribute="trailing" id="rob-eJ-Ra6"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.93179839849472046" green="0.84510141611099243" blue="0.69798833131790161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8kz-NQ-jt9" secondAttribute="trailing" id="4ns-2w-a8O"/>
+                <constraint firstItem="8kz-NQ-jt9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IUc-OF-XMm"/>
+                <constraint firstItem="8kz-NQ-jt9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XfY-YH-pdl"/>
+                <constraint firstAttribute="bottom" secondItem="8kz-NQ-jt9" secondAttribute="bottom" id="hR4-UV-n3F"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="-31.5" y="266.5"/>
+        </view>
+    </objects>
+</document>
