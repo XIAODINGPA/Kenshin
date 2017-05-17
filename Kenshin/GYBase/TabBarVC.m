@@ -108,12 +108,6 @@
     
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    
-}
-
 - (void)dealloc
 {
     [Tools NSLogClassDestroy:self];
