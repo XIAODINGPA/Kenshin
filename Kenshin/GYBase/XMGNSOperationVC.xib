@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XMGNSOperationVC">
@@ -23,12 +27,12 @@
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsR-wh-F7j">
                                     <rect key="frame" x="30" y="296" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.088432945311069489" green="0.46287238597869873" blue="0.18661445379257202" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.089572511613368988" green="0.3973945677280426" blue="0.14065665006637573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="1gj-RJ-TpB"/>
                                     </constraints>
                                     <state key="normal" title="NSOperationQueue-4">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnQueue4:" destination="-1" eventType="touchUpInside" id="ZM4-hQ-QWq"/>
@@ -36,12 +40,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGQ-82-2ak">
                                     <rect key="frame" x="30" y="250" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.091572783887386322" green="0.47902685403823853" blue="0.12527859210968018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.09275461733341217" green="0.41466319561004639" blue="0.095814689993858337" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="gqq-nS-xdU"/>
                                     </constraints>
                                     <state key="normal" title="NSOperationQueue-3">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnQueue3:" destination="-1" eventType="touchUpInside" id="tja-XI-DJS"/>
@@ -49,12 +53,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMi-2D-lQt">
                                     <rect key="frame" x="30" y="204" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.090495996177196503" green="0.48700696229934692" blue="0.10926381498575211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.092938587069511414" green="0.42308485507965088" blue="0.084935516119003296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="Fhx-9O-iRL"/>
                                     </constraints>
                                     <state key="normal" title="NSOperationQueue-2">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnQueue2:" destination="-1" eventType="touchUpInside" id="9s2-0U-fYR"/>
@@ -62,12 +66,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Epc-t5-IBT">
                                     <rect key="frame" x="30" y="158" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.11140019446611404" green="0.55435961484909058" blue="0.091373689472675323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.11021444201469421" green="0.49480676651000977" blue="0.073673762381076813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="2zf-6w-O1X"/>
                                     </constraints>
                                     <state key="normal" title="NSOperationQueue-1">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnQueue:" destination="-1" eventType="touchUpInside" id="VCF-6d-YMa"/>
@@ -75,12 +79,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hp-2Z-kPn">
                                     <rect key="frame" x="30" y="20" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.27504521608352661" green="0.64922094345092773" blue="0.08941938728094101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.22873058915138245" green="0.59945356845855713" blue="0.073585636913776398" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="fKj-ja-ssx"/>
                                     </constraints>
                                     <state key="normal" title="NSInvocationOperation">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnNSOperationBase:" destination="-1" eventType="touchUpInside" id="L3y-bM-dCY"/>
@@ -88,12 +92,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lx-xh-SH5">
                                     <rect key="frame" x="30" y="66" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.21932524442672729" green="0.63741606473922729" blue="0.087805114686489105" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.18588869273662567" green="0.58642357587814331" blue="0.07229980081319809" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="iFU-Sf-xwa"/>
                                     </constraints>
                                     <state key="normal" title="NSBlockOperation">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnBlockOperation:" destination="-1" eventType="touchUpInside" id="aNV-Lt-8f3"/>
@@ -101,12 +105,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnA-Ag-yI8">
                                     <rect key="frame" x="30" y="112" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.15286427736282349" green="0.61372196674346924" blue="0.089067079126834869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.1395806223154068" green="0.56007921695709229" blue="0.072741217911243439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="peZ-Z5-5TP"/>
                                     </constraints>
                                     <state key="normal" title="NSOperationCustom">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnCustom:" destination="-1" eventType="touchUpInside" id="0cj-fF-oc5"/>
@@ -114,12 +118,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9x-P6-Bbo">
                                     <rect key="frame" x="30" y="388" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.76833051443099976" green="0.072340808808803558" blue="0.78632485866546631" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.70761740207672119" green="0.0" blue="0.7388426661491394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="YDD-K6-ZYt"/>
                                     </constraints>
                                     <state key="normal" title="Other">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnOther:" destination="-1" eventType="touchUpInside" id="0nI-E4-h9n"/>
@@ -127,12 +131,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhn-CM-9qb">
                                     <rect key="frame" x="30" y="342" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.089113406836986542" green="0.41916650533676147" blue="0.19864791631698608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.086233370006084442" green="0.35287532210350037" blue="0.14984472095966339" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="OwH-9t-sVD"/>
                                     </constraints>
                                     <state key="normal" title="NSOperationQueue-5">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnQueueBlock:" destination="-1" eventType="touchUpInside" id="VWe-jc-N5S"/>
@@ -140,12 +144,12 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnm-2f-2tP">
                                     <rect key="frame" x="30" y="434" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.9946405291557312" green="0.33775311708450317" blue="0.0012111261021345854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.98071491718292236" green="0.24346005916595459" blue="0.030444102361798286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="Mzn-F9-pes"/>
                                     </constraints>
                                     <state key="normal" title="操作-依赖-监听">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnCtrlAndDependAndListener:" destination="-1" eventType="touchUpInside" id="rHl-Fp-dQz"/>
@@ -153,19 +157,19 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFB-A8-B9Q">
                                     <rect key="frame" x="30" y="475" width="315" height="36"/>
-                                    <color key="backgroundColor" red="0.072103776037693024" green="0.70917576551437378" blue="0.8104364275932312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.10507465898990631" green="0.6533200740814209" blue="0.76701986789703369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="36" id="YsD-NA-r75"/>
                                     </constraints>
                                     <state key="normal" title="线程间的通信">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnMsgOp:" destination="-1" eventType="touchUpInside" id="oOF-wA-iVb"/>
                                     </connections>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="dMi-2D-lQt" firstAttribute="top" secondItem="Epc-t5-IBT" secondAttribute="bottom" constant="10" id="2N7-80-D6s"/>
                                 <constraint firstItem="uGQ-82-2ak" firstAttribute="leading" secondItem="TWw-N5-0NU" secondAttribute="leading" constant="30" id="3ZY-ZX-k5B"/>
@@ -213,14 +217,13 @@
                     </constraints>
                 </scrollView>
             </subviews>
-            <color key="backgroundColor" red="0.93179839849472046" green="0.84510141611099243" blue="0.69798833131790161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.91252279281616211" green="0.81230521202087402" blue="0.63867825269699097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="8kz-NQ-jt9" secondAttribute="trailing" id="4ns-2w-a8O"/>
                 <constraint firstItem="8kz-NQ-jt9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IUc-OF-XMm"/>
                 <constraint firstItem="8kz-NQ-jt9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XfY-YH-pdl"/>
                 <constraint firstAttribute="bottom" secondItem="8kz-NQ-jt9" secondAttribute="bottom" id="hR4-UV-n3F"/>
             </constraints>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="-31.5" y="266.5"/>
         </view>
     </objects>

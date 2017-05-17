@@ -72,7 +72,7 @@
 {
     //加载html内容
     NSString *htmlStr = @"<html>\
-    <head><title>范希望的 Blog</title></head>\
+    <head><title>kenshin的 Blog</title></head>\
     <body style=\"color:#0092FF;\">\
     <h1 id=\"header\">I am Kenshin</h1>\
     <p id=\"blog\">iOS 开发</p>\

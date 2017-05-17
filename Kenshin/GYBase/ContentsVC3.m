@@ -16,7 +16,6 @@
 #import "NoDelayScroll.h"
 #import "ClearCachesVC.h"
 #import "EvaluateStarsVC.h"
-#import "XcodeEightVC.h"
 #import "MaoBoLiVC.h"
 #import "XibLoginVC.h"
 #import "NavBarCustomVC.h"
@@ -375,15 +374,7 @@
 #pragma mark 富文本
 - (void)label
 {
-    WS(ws);
-    UIButtonK *testBtn1 = [[UIButtonK alloc] initWithFrame:CGRectMake(_xBtnRight, margin_10, _btnWidth, height_normal)];
-    [self setButtonKStyle:testBtn1 andWithTitle:@"Xcode8"];
-    [self.contentScroll addSubview:testBtn1];
-    testBtn1.clickButtonBlock = ^(UIButtonK *b){
-        XcodeEightVC *vc = [[XcodeEightVC alloc] init];
-        [ws.navigationController pushViewController:vc animated:YES];
-        
-    };
+    [Tools toast:@"毛都没有" andCuView:self.view];
     
 }
 

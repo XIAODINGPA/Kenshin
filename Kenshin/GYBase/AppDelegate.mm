@@ -249,7 +249,6 @@
         NSLog(@"Failed to set up a session.");
     }
     
-    
     //启用远程控制事件接收
     [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     
@@ -430,25 +429,6 @@ fetchCompletionHandler:
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @end

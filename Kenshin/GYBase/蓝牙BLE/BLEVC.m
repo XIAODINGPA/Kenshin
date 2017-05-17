@@ -27,6 +27,11 @@
     [super viewDidLoad];
     [self initBLEUI];
 
+    //初始化之后 会执行代理 centralManagerDidUpdateState:
+    _centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil options:nil];
+    //在这个示例中，self被设置为delegate，以接收任何central角色的事件。如果指定dispatch queue为nil，central manager将在主线程中分发事件
+    //当你创建一个central manager，它会调用它的delegate对象的centralManagerDidUpdateState:方法
+    
 }
 
 - (void)initBLEUI
@@ -38,7 +43,7 @@
 #pragma mark 扫描设备
 - (IBAction)scanBluetoothDev:(id)sender
 {
-    if (self.centralManager)//centralManager 初始化之后 会执行代理 centralManagerDidUpdateState:
+    if (_centralManager)//centralManager 初始化之后 会执行代理 centralManagerDidUpdateState:
     {
         
         [_centralManager scanForPeripheralsWithServices:nil options:nil];
@@ -183,7 +188,7 @@
     NSLog(@"DEV:%@ RSSI:%@", peripheral.name, RSSI);
     
     
-    if ([peripheral.name isEqualToString:@"sLock-1E3E027FC02F2"])
+    if ([peripheral.name isEqualToString:@"fLock-1E25DDBFE760D"])
     {
         self.peripheral = peripheral;
         [self.centralManager stopScan];
@@ -305,42 +310,10 @@ didWriteValueForCharacteristic:(CBCharacteristic *)characteristic
 {
     if (error)
     {
-        NSLog(@"Error writing characteristic value: %@",
-              [error localizedDescription]);
+        NSLog(@"Error writing characteristic value: %@", [error localizedDescription]);
     }
     
 }
-#pragma mark 懒加载
-- (CBCentralManager *)centralManager
-{
-    if (_centralManager == nil)
-    {
-        //初始化之后 会执行代理 centralManagerDidUpdateState:
-        _centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil options:nil];
-        //在这个示例中，self被设置为delegate，以接收任何central角色的事件。如果指定dispatch queue为nil，central manager将在主线程中分发事件
-        //当你创建一个central manager，它会调用它的delegate对象的centralManagerDidUpdateState:方法
-        
-    }
-    return _centralManager;
-    
-}
-
-//从代理中初始化
-//- (CBPeripheral *)peripheral
-//{
-//    if (_peripheral == nil)
-//    {
-//        
-//    }
-//    return _peripheral;
-//    
-//}
-
-
-
-
-
-
 
 
 @end

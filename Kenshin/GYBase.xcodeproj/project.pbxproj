@@ -302,7 +302,6 @@
 		948B88D51D810A1800D98C53 /* JiBuQiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948B88D31D810A1800D98C53 /* JiBuQiVC.xib */; };
 		948B88E01D81516300D98C53 /* NSDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B88DE1D81516300D98C53 /* NSDateVC.m */; };
 		948B88E11D81516300D98C53 /* NSDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948B88DF1D81516300D98C53 /* NSDateVC.xib */; };
-		948E74111D38BEE5007ABDEF /* DownloadImgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 948E74101D38BEE5007ABDEF /* DownloadImgVC.m */; };
 		949725031D6FE37400D1A227 /* XibTwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 949725011D6FE37400D1A227 /* XibTwoVC.m */; };
 		949725081D6FE6D800D1A227 /* CustomXIbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 949725071D6FE6D800D1A227 /* CustomXIbView.m */; };
 		9497250A1D6FE6EE00D1A227 /* CustomXIbView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 949725091D6FE6EE00D1A227 /* CustomXIbView.xib */; };
@@ -338,8 +337,6 @@
 		94A9C9641D73234F002BE403 /* GCDFuntionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C9621D73234F002BE403 /* GCDFuntionsVC.m */; };
 		94A9C9651D73234F002BE403 /* GCDFuntionsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A9C9631D73234F002BE403 /* GCDFuntionsVC.xib */; };
 		94AEF9981D8296FB00C59231 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AEF9971D8296FB00C59231 /* DateUtil.m */; };
-		94AF82821D8FDD2300CA455E /* XcodeEightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AF82801D8FDD2300CA455E /* XcodeEightVC.m */; };
-		94AF82831D8FDD2300CA455E /* XcodeEightVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94AF82811D8FDD2300CA455E /* XcodeEightVC.xib */; };
 		94B086ED1D74734F001A83B0 /* DesignModeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B086EB1D74734F001A83B0 /* DesignModeVC.m */; };
 		94B086EE1D74734F001A83B0 /* DesignModeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94B086EC1D74734F001A83B0 /* DesignModeVC.xib */; };
 		94B086F11D747511001A83B0 /* SingleInstancek.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B086F01D747511001A83B0 /* SingleInstancek.m */; };
@@ -955,8 +952,6 @@
 		948B88DD1D81516300D98C53 /* NSDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateVC.h; sourceTree = "<group>"; };
 		948B88DE1D81516300D98C53 /* NSDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateVC.m; sourceTree = "<group>"; };
 		948B88DF1D81516300D98C53 /* NSDateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSDateVC.xib; sourceTree = "<group>"; };
-		948E740F1D38BEE5007ABDEF /* DownloadImgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImgVC.h; sourceTree = "<group>"; };
-		948E74101D38BEE5007ABDEF /* DownloadImgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImgVC.m; sourceTree = "<group>"; };
 		949725001D6FE37400D1A227 /* XibTwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibTwoVC.h; sourceTree = "<group>"; };
 		949725011D6FE37400D1A227 /* XibTwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibTwoVC.m; sourceTree = "<group>"; };
 		949725061D6FE6D800D1A227 /* CustomXIbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomXIbView.h; sourceTree = "<group>"; };
@@ -1021,9 +1016,6 @@
 		94A9C9631D73234F002BE403 /* GCDFuntionsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDFuntionsVC.xib; sourceTree = "<group>"; };
 		94AEF9961D8296FB00C59231 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
 		94AEF9971D8296FB00C59231 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
-		94AF827F1D8FDD2300CA455E /* XcodeEightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XcodeEightVC.h; sourceTree = "<group>"; };
-		94AF82801D8FDD2300CA455E /* XcodeEightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XcodeEightVC.m; sourceTree = "<group>"; };
-		94AF82811D8FDD2300CA455E /* XcodeEightVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XcodeEightVC.xib; sourceTree = "<group>"; };
 		94B086EA1D74734F001A83B0 /* DesignModeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignModeVC.h; sourceTree = "<group>"; };
 		94B086EB1D74734F001A83B0 /* DesignModeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignModeVC.m; sourceTree = "<group>"; };
 		94B086EC1D74734F001A83B0 /* DesignModeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignModeVC.xib; sourceTree = "<group>"; };
@@ -1850,8 +1842,6 @@
 				B9BE7F861E4AF7B600FD33E3 /* 排序 */,
 				B977366B1E35CB3700F71C9C /* 屏幕适配 */,
 				B9FCF3201E34A1BB009573FD /* 蓝牙BLE */,
-				B91F49031E2CC0190046E34D /* iBeacon */,
-				B9233A131E2C5180001BA80B /* widget窗口小部件 */,
 				B9C825FE1E23543E00D06C14 /* 表的多选 */,
 				B9B369E71E1262D300D5E3CF /* Monsry */,
 				B93E786F1DF4ECD100895334 /* 保存数组到沙盒 */,
@@ -1861,13 +1851,10 @@
 				948B88D01D8107F700D98C53 /* 计步器(传感器)获取今天的数据 */,
 				94CC04901D83BB0B004BEF5D /* 弹框广告Demo */,
 				94350CE91D7523FA00E7D89E /* UIImageView */,
-				94C309E71D73F0B1001C1D61 /* 关于-Assets.xcassets */,
 				9414FF7B1D645666008A0867 /* Xib的运用 */,
 				9497250B1D70240000D1A227 /* Gif */,
 				94E3C7D41D6E8A7000751B91 /* 自定义导航条 */,
-				948E740E1D38BEC6007ABDEF /* 下载图片 */,
 				940C279C1D2422C80048AA2F /* 毛玻璃 */,
-				9437FA851D21377E008144C0 /* Xcode8 */,
 				94133A5E1D1D4B5200F0517C /* 星星评分 */,
 				6BDAA3371D10F6B000612DDD /* 清除缓存 */,
 				6BB644EF1CF6A2DA00E2EAA5 /* ContentsVC3.h */,
@@ -2609,16 +2596,6 @@
 			name = UIImageView;
 			sourceTree = "<group>";
 		};
-		9437FA851D21377E008144C0 /* Xcode8 */ = {
-			isa = PBXGroup;
-			children = (
-				94AF827F1D8FDD2300CA455E /* XcodeEightVC.h */,
-				94AF82801D8FDD2300CA455E /* XcodeEightVC.m */,
-				94AF82811D8FDD2300CA455E /* XcodeEightVC.xib */,
-			);
-			name = Xcode8;
-			sourceTree = "<group>";
-		};
 		944047411D81A55800BE5C3A /* 传感器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2898,15 +2875,6 @@
 				945E394E1D7FF11500A2EE39 /* MCNavBarVC.xib */,
 			);
 			name = "贵阳项目里的搜索框效果";
-			sourceTree = "<group>";
-		};
-		948E740E1D38BEC6007ABDEF /* 下载图片 */ = {
-			isa = PBXGroup;
-			children = (
-				948E740F1D38BEE5007ABDEF /* DownloadImgVC.h */,
-				948E74101D38BEE5007ABDEF /* DownloadImgVC.m */,
-			);
-			path = "下载图片";
 			sourceTree = "<group>";
 		};
 		949725051D6FE6B500D1A227 /* XibView */ = {
@@ -3421,13 +3389,6 @@
 			path = "JS交互";
 			sourceTree = "<group>";
 		};
-		94C309E71D73F0B1001C1D61 /* 关于-Assets.xcassets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "关于-Assets.xcassets";
-			sourceTree = "<group>";
-		};
 		94CC04901D83BB0B004BEF5D /* 弹框广告Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -3535,25 +3496,11 @@
 			path = IAMYourFather;
 			sourceTree = "<group>";
 		};
-		B91F49031E2CC0190046E34D /* iBeacon */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = iBeacon;
-			sourceTree = "<group>";
-		};
 		B9233A121E2C515A001BA80B /* Five */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Five;
-			sourceTree = "<group>";
-		};
-		B9233A131E2C5180001BA80B /* widget窗口小部件 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "widget窗口小部件";
 			sourceTree = "<group>";
 		};
 		B9233A191E2C5456001BA80B /* Frameworks */ = {
@@ -3923,7 +3870,6 @@
 				945819A01D81DE240041A038 /* RockVC.xib in Resources */,
 				B9D0EA4D1E4D8B6700B0CFC8 /* UDINPROVC.xib in Resources */,
 				945819831D81C7F80041A038 /* JiaSuJiPull.xib in Resources */,
-				94AF82831D8FDD2300CA455E /* XcodeEightVC.xib in Resources */,
 				945819771D81B7090041A038 /* JuLiCGQVC.xib in Resources */,
 				945819971D81D6370041A038 /* TuoLuoPullVC.xib in Resources */,
 				94982AB41D6D7BF300AAB0AA /* TableViewContentVC.xib in Resources */,
@@ -4108,7 +4054,6 @@
 				941ABC0E1D825BE10081DA4B /* MJRefreshAutoStateFooter.m in Sources */,
 				941ABC181D825BE10081DA4B /* UIScrollView+MJExtension.m in Sources */,
 				6BDDD6D41CB66C8900730111 /* MASConstraint.m in Sources */,
-				948E74111D38BEE5007ABDEF /* DownloadImgVC.m in Sources */,
 				941ABC0F1D825BE10081DA4B /* MJRefreshBackGifFooter.m in Sources */,
 				6B5212B21CFEADD100BCB27A /* KStatus.m in Sources */,
 				6B9B0D3F1CFBE6CB00F387E1 /* ScrollDemoVC1.m in Sources */,
@@ -4148,7 +4093,6 @@
 				6B3B861C1CF551ED009F30BD /* NSString+Trim.m in Sources */,
 				9458196E1D81B1750041A038 /* JiaSuJiVC.m in Sources */,
 				6B0D56241CF6FB0C00CE62CF /* ShakeImgView.m in Sources */,
-				94AF82821D8FDD2300CA455E /* XcodeEightVC.m in Sources */,
 				949725471D702C5A00D1A227 /* UIImageView+WebCache.m in Sources */,
 				941EDA391D6AFAF700D307BD /* UIViewExt.m in Sources */,
 				6BFC42721CBCB67E0000F24A /* AFURLRequestSerialization.m in Sources */,

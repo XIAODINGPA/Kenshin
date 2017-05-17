@@ -63,7 +63,15 @@
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self.view];
     
-    if((point.x>0 && point.x<self.view.frame.size.width)&&(point.y>0 && point.y<self.view.frame.size.height))
+    //可以将手势范围限定在星星View的区域
+    CGFloat xMin = 100;
+    CGFloat xMax = CGRectGetMaxX(_star_5.frame);
+    
+    CGFloat yMin = 100;
+    CGFloat yMax = CGRectGetMaxY(_star_5.frame);
+    
+    if((point.x>xMin && point.x<xMax)&&
+       (point.y>yMin && point.y<yMax))
     {
         self.canAddStar = YES;
         [self changeStarForegroundViewWithPoint:point];

@@ -64,7 +64,7 @@
         //定义字典
         NSDictionary *dicOne   = @{@"title":@"个人姓名", @"tellPhone":@""};
         NSDictionary *dicTwo   = @{@"title":@"个人邮箱", @"tellPhone":@""};
-        NSDictionary *dicThree = @{@"title":@"个人电话", @"tellPhone":@"18385099600"};
+        NSDictionary *dicThree = @{@"title":@"个人电话", @"tellPhone":@"18312345678"};
         
         //将字典转为模型
         SettingCellModel *modelOne   = [SettingCellModel settingCellModelWith:dicOne];

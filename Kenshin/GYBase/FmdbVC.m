@@ -51,7 +51,7 @@
     
     //报 野指针
     //1.executeUpdate:不确定的参数用？来占位（后面参数必须是oc对象，；代表语句结束）
-//    BOOL isSucess = [db executeUpdate:@"INSERT INTO t_student (name, age) VALUES (?,?);", @"范希望", 25];
+//    BOOL isSucess = [db executeUpdate:@"INSERT INTO t_student (name, age) VALUES (?,?);", @"kenshin", 25];
     
     //2.executeUpdateWithFormat：不确定的参数用%@，%d等来占位 （参数为原始数据类型，执行语句不区分大小写）
 //    BOOL isSucess2 = [db executeUpdateWithFormat:@"insert into t_student (name, age) values (%@,%i);", @"范望望", 26];
