@@ -67,7 +67,7 @@
 - (IBAction)btnOpDen:(id)sender
 {
     //1.创建队列
-    NSOperationQueue *queue = [NSOperationQueue new];
+    NSOperationQueue *queue  = [NSOperationQueue new];
     NSOperationQueue *queue2 = [NSOperationQueue new];
     //2.封装操作
     NSBlockOperation *op1 = [NSBlockOperation blockOperationWithBlock:^{
